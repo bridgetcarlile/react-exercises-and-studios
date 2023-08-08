@@ -1,20 +1,14 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-import RecipeDescription from './components/Description';
-import RecipeIngredients from './components/Ingredients';
-import RecipePhoto from './components/Photos';
+import Profile from './components/Profile';
+import Banner from './components/Banner';
 
-function App() {
-  return (
-    <div className="App">
-      <div className="recipePhotoBlock">
-        <RecipePhoto />
-        <div>
-          <RecipeDescription />
-          <RecipeIngredients />
-        </div>
-      </div>
-    </div>
+function App(){
+  return(
+    <>
+      <Banner />
+      <Profile />
+    </>
   );
 }
 
